@@ -24,7 +24,12 @@ curl -i -u $username https://api.github.com/user/repos -d '{"name":"'$repo_name'
 mkdir $outdir && cd $outdir
 
 echo "# $repo_name" >> README.md
+echo "__pycache__
+.idea
+.pkl
+*/__pycache__" >> .gitignore
 git init
+git add .gitignore
 git add README.md
 git commit -m  "first commit"
 git remote add origin https://github.com/$username/$repo_name.git
