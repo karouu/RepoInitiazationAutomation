@@ -20,4 +20,4 @@ To run the script type in 'create <name of your folder>'
 4. use the tree utility to append the dir listing on your README automatically each time you git add a new file. 
 5. create a keyboard shortcut on your mac that brings up a terminal screen where you just enter the project_name.
 6. add in an auto error logger - to log all new error codes + err_msg's with timestamps.
-7. add in an importance_toggle - that checks if the local and remote HEADS match + prevents accidental deletes.
+7. add in an importance_toggle - that checks if the local and remote HEADS match + prevents accidental deletes.# easy_spider
